@@ -1,0 +1,15 @@
+body {
+  background-color: #3b3c3e !important;
+}
+
+.root {
+  background-color: #3b3c3e !important;
+  min-width: 1280px;
+}
+
+.content {
+  width: 100%;
+  max-width: 768px;
+  padding: 50px;
+  margin: 0 auto;
+}

@@ -1,0 +1,32 @@
+.root {
+}
+
+.login-form:global(.ant-form) {
+  max-width: 500px;
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+.login-form-button:global(.ant-btn) {
+  width: 100%;
+}
+
+.title:global(.ant-typography) {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.card:global(.ant-card) {
+  width: 550px;
+}
+
+.form-item:global(.ant-form-item) {
+  margin-bottom: 0;
+}
+
+:global .ant-form-explain {
+  margin-top: 10px;
+  padding-left: 10px;
+}

@@ -1,0 +1,10 @@
+**/*.md
+**/*.svg
+**/*.ejs
+**/*.html
+**/*.bson
+package.json
+yarn.lock
+desktop/libs/**/*.*
+desktop/static/**/*.*
+node_modules

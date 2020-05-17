@@ -1,0 +1,42 @@
+{
+  "protocol": "http",
+  "host": "localhost",
+  "port": 8000,
+  "whitelist": ["http://localhost:8000"],
+  "public": "../server/public/",
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "upload": "uploads",
+  "adminBase": "/admin",
+  "base": "api/v1",
+  "mysql": "mysql://root@127.0.0.1:3306/goodflash",
+  "authentication": {
+    "secret": "key-for-local",
+    "strategies": ["jwt", "local"],
+    "path": "/authentication",
+    "service": "users",
+    "jwt": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "http://localhost:8000",
+      "subject": "goodflash-local",
+      "issuer": "goodflash",
+      "algorithm": "HS256",
+      "expiresIn": "30d"
+    },
+    "local": {
+      "entity": "user",
+      "usernameField": "email",
+      "passwordField": "password"
+    },
+    "cookie": {
+      "enabled": true,
+      "name": "accessToken",
+      "httpOnly": false,
+      "secure": false
+    }
+  }
+}

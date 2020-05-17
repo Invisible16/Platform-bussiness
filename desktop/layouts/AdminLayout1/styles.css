@@ -1,0 +1,73 @@
+.root {
+  min-height: 100vh;
+  min-width: 1280px;
+}
+
+.footer:global(.ant-layout-footer) {
+  text-align: center;
+}
+
+.logo {
+  background-repeat: no-repeat;
+  display: block;
+  height: 90px;
+  background-image: url(/static/images/logo@2x.png);
+}
+
+.logo-full {
+  width: 125px;
+  background-position: center center;
+  background-size: auto 100%;
+  margin: 16px 0 16px 36px;
+}
+
+.logo-small {
+  width: 80px;
+  background-position: -5px;
+  background-size: cover;
+  margin: 16px 0 16px 0;
+}
+
+.slider:global(.ant-layout-sider) {
+  overflow: hidden;
+}
+
+.content:global(.ant-layout-content) {
+  margin: 0 16px;
+}
+
+.breadcrumb:global(.ant-breadcrumb) {
+  margin: 16px 0;
+}
+
+.col-inner-right:global(.ant-col) {
+  text-align: right;
+}
+
+.button-account:global(.ant-btn) {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.button-logout:global(.ant-btn) {
+  margin-top: 10px;
+}
+
+.page-wrap {
+  padding: 24px;
+  background: #fff;
+  min-height: 100vh;
+}
+
+hr {
+  margin: 0 0 20px 0;
+  border-top: none;
+}
+
+:global(.ant-form-explain) {
+  margin-top: 0 !important;
+}
+
+:global(.ant-tag) {
+  font-size: 13px;
+}
