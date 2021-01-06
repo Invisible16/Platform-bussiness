@@ -44,7 +44,7 @@
     "@feathersjs/rest-client": "^1.4.7",
     "@feathersjs/socketio": "^3.2.7",
     "antd": "^3.13.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "axios-retry": "^3.1.2",
     "babel-plugin-module-resolver": "^3.1.1",
     "ckeditor4-react": "^1.0.0-beta",
